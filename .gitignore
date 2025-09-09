@@ -1,0 +1,52 @@
+# Environment
+.env
+*.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dylib
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+.python-version
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Notebooks and checkpoints
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/
+.streamlit/secrets.toml
+
+# Caches
+.cache/
+.pytest_cache/
+.nfl_data_py/
+.cache_dir/
+
+# Coverage / test
+.coverage*
+htmlcov/
+
+# Logs
+logs/
+*.log
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
